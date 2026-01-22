@@ -1,2 +1,74 @@
-# FluxRss-Docs
-Documentation and support resources for FluxRss, a multi‑source RSS reader for iOS. Includes feature guides, troubleshooting information, and service integration details.
+# FluxRss ドキュメント
+
+FluxRss は、複数の RSS フィードや FreshRSS などの Google Reader API 互換サービス、Readwise Reader、Instapaper といった外部サービスを統合して管理できる iOS 向け RSS リーダーです。高速なフィード更新、柔軟な記事フィルタ、AI 要約、iCloud 同期など、日々の情報収集を効率化するための機能を幅広く備えています。
+
+---
+
+## 主な機能
+
+### RSS フィード管理
+- フィードの追加・編集・削除  
+- URL 指定によるローカル RSS フィード登録  
+- カテゴリ別整理  
+- フィードの並び替え  
+- OPML インポート  
+- ファビコン自動取得  
+
+### 外部サービス連携
+- **FreshRSS（Google Reader API 互換）**  
+  - 認証  
+  - 既読/未読同期  
+  - スター状態同期  
+- **Readwise Reader**  
+  - API トークン認証  
+  - 記事保存  
+- **Instapaper**  
+  - ユーザー名/パスワード認証  
+  - 記事保存  
+
+### 記事閲覧・管理
+- カテゴリ/フィード別の記事一覧  
+- WebView による記事詳細表示  
+- 既読/未読管理  
+- スター（お気に入り）  
+- 画像プレビュー  
+- 動画埋め込み対応  
+- 未読のみ/スターのみ/カテゴリ別などのフィルタ  
+
+### AI 要約
+- Gemini / GPT‑4o mini に対応  
+- 記事の自動要約生成  
+- フルテキスト取得による高精度要約  
+- トークン使用量の表示  
+- AI 使用量クォータ管理  
+
+### iCloud 同期
+- 設定（言語、UI、AI、Read Later 連携）  
+- カテゴリ情報  
+- 既読/スター状態（最新 5000 件）  
+
+### 設定
+- 言語設定（システム / 日本語 / 英語）  
+- 起動時の自動更新  
+- バッジ表示  
+- ファクトリーリセット（全データ削除）  
+
+---
+
+## サポート
+
+アプリの使い方や不具合に関するお問い合わせは、App Store のサポートリンクからご連絡ください。  
+このリポジトリでは、FAQ やトラブルシューティング情報を順次追加していきます。
+
+---
+
+## プライバシーについて
+
+FluxRss はユーザーの個人情報を収集しません。  
+API キーや認証情報はすべてデバイス内の Keychain に安全に保存され、外部に送信されることはありません。
+
+---
+
+## 免責事項
+
+FluxRss は独立したアプリケーションであり、FreshRSS、Readwise、Instapaper、OpenAI、Google とは提携していません。
